@@ -5,12 +5,11 @@
  */
 package javastringreverse;
 
-import java.io.*;
 import java.util.*;
 
 /**
  *
- * @author Ian
+ * @author IMG
  */
 public class JavaStringReverse {
 
