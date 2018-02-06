@@ -12,6 +12,7 @@ import java.util.*;
  * @author IMG
  */
 public class JavaStringReverse {
+//    https://www.hackerrank.com/challenges/java-string-reverse/problem
 
     /**
      * @param args the command line arguments
