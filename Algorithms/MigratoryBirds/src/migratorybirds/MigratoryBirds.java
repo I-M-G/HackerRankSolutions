@@ -16,6 +16,7 @@ public class MigratoryBirds {
     static int migratoryBirds(int n, int[] ar) {
         // Complete this function
         int type = 0;
+        int[] totals = new int[5];
         
         ArrayList<Integer> typeOne = new ArrayList<>();
         ArrayList<Integer> typeTwo = new ArrayList<>();
@@ -53,14 +54,21 @@ public class MigratoryBirds {
         System.out.println("4 " + typeFour.size());
         System.out.println("5 " + typeFive.size());
         
+        // I don't like this....
+        totals[0] = typeOne.size();
+        totals[1] = typeTwo.size();
+        totals[2] = typeThree.size();
+        totals[3] = typeFour.size();
+        totals[4] = typeFive.size();
         
-        // for (int i = 0; i > 5; i++) {
-            
-        // }
-        
-        
-        
-        
+        for (int i = totals.length-1; i >= 0; i--) {
+            int temp = totals[totals.length-1];
+            System.out.println("totals[i] " + totals[i]);
+            if (totals[i] > temp) {
+                temp = totals[i];
+                type = i+1;
+            }
+        }
         
         return type;
     }
