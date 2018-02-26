@@ -19,7 +19,9 @@ public class DrawingBook {
         int fromBack = 0;
         
         for (int i = 1; i <= n; i+=2) {
-            
+            if (p == 1) {
+                break;
+            }
             if (i >= p) {
                 break;
             }
