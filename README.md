@@ -18,3 +18,5 @@ These are my solutions to the Hacker Rank problems. I am using this as a way to 
 [MigratoryBirds](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/MigratoryBirds/src/migratorybirds/MigratoryBirds.java)
 
 [Bon Appetit](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/BonAppetit/src/bonappetit/BonAppetit.java)
+
+[Sock Merchant](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/SockMerchant/src/sockmerchant/SockMerchant.java)
