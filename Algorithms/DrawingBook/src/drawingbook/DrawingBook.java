@@ -20,14 +20,27 @@ public class DrawingBook {
         
         for (int i = 1; i <= n; i+=2) {
             
+            if (i >= p) {
+                break;
+            }
+            
+            fromFront++;
         }
         
         for (int i = n; i >= 1; i-=2) {
+            if (n % 2 != 0 && p == n-1) {
+                break;
+            }
             
+            if (i <= p) {
+                break;
+            }
+            
+            fromBack++;
         }
         
         
-        if (fromFront > fromBack) {
+        if (fromFront < fromBack) {
             return fromFront;
         }
         else {
