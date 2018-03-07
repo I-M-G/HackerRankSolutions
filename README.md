@@ -1,9 +1,10 @@
 # HackerRankSolutions
+
 [HackerRank](https://www.hackerrank.com "HackerRank")
 
 These are my solutions to the Hacker Rank problems. I am using this as a way to track my programming progress. Most solutions will be done using Java. I am still learning and I am sure there are ways to optimize these solutions. Any feedback is greatly appreciated.
 
-#### Quick access to the final solutions
+## Quick access to the final solutions
 
 [Anagrams](https://github.com/I-M-G/HackerRankSolutions/blob/master/JavaChallenges/Anagrams/src/anagrams/Anagrams.java)
 
