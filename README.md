@@ -22,3 +22,6 @@ These are my solutions to the Hacker Rank problems. I am using this as a way to 
 [Sock Merchant](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/SockMerchant/src/sockmerchant/SockMerchant.java)
 
 [Drawing Book](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/DrawingBook/src/drawingbook/DrawingBook.java)
+
+[Electronics Shop](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/ElectronicShop/src/electronicshop/ElectronicShop.java)
+
