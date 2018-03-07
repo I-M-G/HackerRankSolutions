@@ -26,3 +26,4 @@ These are my solutions to the Hacker Rank problems. I am using this as a way to 
 
 [Electronics Shop](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/ElectronicShop/src/electronicshop/ElectronicShop.java)
 
+[Divisible Sum Pairs](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/DivisibleSumPairs/src/divisiblesumpairs/DivisibleSumPairs.java)
