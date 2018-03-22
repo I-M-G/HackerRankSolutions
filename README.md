@@ -6,11 +6,15 @@ These are my solutions to the Hacker Rank problems. I am using this as a way to 
 
 ## Quick access to the final solutions
 
+#### JavaChallenges
+
 [Anagrams](https://github.com/I-M-G/HackerRankSolutions/blob/master/JavaChallenges/Anagrams/src/anagrams/Anagrams.java)
 
 [StringReverse](https://github.com/I-M-G/HackerRankSolutions/blob/master/JavaChallenges/JavaStringReverse/src/javastringreverse/JavaStringReverse.java)
 
 [SubstringComparisons](https://github.com/I-M-G/HackerRankSolutions/blob/master/JavaChallenges/SubstringComparisons/src/substringcomparisons/SubstringComparisons.java)
+
+#### Algorithms
 
 [AppleAndOrange](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/AppleAndOrange/src/appleandorange/AppleAndOrange.java)
 
@@ -27,3 +31,5 @@ These are my solutions to the Hacker Rank problems. I am using this as a way to 
 [Electronics Shop](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/ElectronicShop/src/electronicshop/ElectronicShop.java)
 
 [Divisible Sum Pairs](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/DivisibleSumPairs/src/divisiblesumpairs/DivisibleSumPairs.java)
+
+[Breaking the Record](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/BreakingTheRecords/src/breakingtherecords/BreakingTheRecords.java)
