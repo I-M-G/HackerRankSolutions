@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package breakingtherecords;
+package breakingtherecord;
 
 import java.util.*;
 
@@ -11,8 +11,12 @@ import java.util.*;
  *
  * @author Ian <https://github.com/I-M-G>
  */
-public class BreakingTheRecords {
+public class BreakingTheRecord {
 
+    /**
+     * @param args the command line arguments
+     */
+    
     static int[] breakingRecords(int[] score) 
     {
         // Store the number of times Maria breaks the most and least points
@@ -58,5 +62,6 @@ public class BreakingTheRecords {
 
         in.close();
     }
+    
     
 }

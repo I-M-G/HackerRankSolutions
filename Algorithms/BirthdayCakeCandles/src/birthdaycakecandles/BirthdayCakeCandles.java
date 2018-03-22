@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package brithdaycakecandles;
+package birthdaycakecandles;
 
 import java.util.*;
 
@@ -12,7 +12,7 @@ import java.util.*;
  * @author Ian <https://github.com/I-M-G>
  */
 
-public class BrithdayCakeCandles {
+public class BirthdayCakeCandles {
 
     static int birthdayCakeCandles(int n, int[] ar) 
     {
