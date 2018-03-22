@@ -32,4 +32,6 @@ These are my solutions to the Hacker Rank problems. I am using this as a way to 
 
 [Divisible Sum Pairs](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/DivisibleSumPairs/src/divisiblesumpairs/DivisibleSumPairs.java)
 
-[Breaking the Record](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/BreakingTheRecords/src/breakingtherecords/BreakingTheRecords.java)
+[Breaking the Record](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/BreakingTheRecord/src/breakingtherecord/BreakingTheRecord.java)
+
+[Birthday Cake Candles](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/BirthdayCakeCandles/src/birthdaycakecandles/BirthdayCakeCandles.java)
