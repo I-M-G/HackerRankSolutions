@@ -2,7 +2,7 @@
 
 [HackerRank](https://www.hackerrank.com "HackerRank")
 
-These are my solutions to the Hacker Rank problems. I am using this as a way to track my programming progress. Most solutions will be done using Java. I am still learning and I am sure there are ways to optimize these solutions. Any feedback is greatly appreciated.
+These are my solutions to the Hacker Rank problems. I am using this as a way to challenge myself and track my programming progress. Typically these solutions will be done in Java. I am still learning and I am sure there are ways to optimize these solutions. Listed below are my submitted challenges. Click a challenge to see the solution. Any feedback is greatly appreciated.
 
 <!-- ## Quick access to the final solutions -->
 
