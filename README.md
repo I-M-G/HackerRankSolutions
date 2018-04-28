@@ -6,7 +6,7 @@ These are my solutions to the Hacker Rank problems. I am using this as a way to 
 
 <!-- ## Quick access to the final solutions -->
 
-#### JavaChallenges
+## JavaChallenges
 
 [Anagrams](https://github.com/I-M-G/HackerRankSolutions/blob/master/JavaChallenges/Anagrams/src/anagrams/Anagrams.java)
 
@@ -14,7 +14,7 @@ These are my solutions to the Hacker Rank problems. I am using this as a way to 
 
 [SubstringComparisons](https://github.com/I-M-G/HackerRankSolutions/blob/master/JavaChallenges/SubstringComparisons/src/substringcomparisons/SubstringComparisons.java)
 
-#### Algorithms
+## Algorithms
 
 [AppleAndOrange](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/AppleAndOrange/src/appleandorange/AppleAndOrange.java)
 
@@ -35,3 +35,6 @@ These are my solutions to the Hacker Rank problems. I am using this as a way to 
 [Breaking the Record](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/BreakingTheRecord/src/breakingtherecord/BreakingTheRecord.java)
 
 [Birthday Cake Candles](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/BirthdayCakeCandles/src/birthdaycakecandles/BirthdayCakeCandles.java)
+
+[Cats and Mouse](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/CatsAndMouse/src/catsandmouse/CatsAndMouse.java)
+
