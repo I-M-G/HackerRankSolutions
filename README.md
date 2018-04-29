@@ -38,3 +38,5 @@ These are my solutions to the Hacker Rank problems. I am using this as a way to 
 
 [Cats and Mouse](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/CatsAndMouse/src/catsandmouse/CatsAndMouse.java)
 
+[Counting Valleys](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/CountingValleys/src/countingvalleys/CountingValleys.java)
+
