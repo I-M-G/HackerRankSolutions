@@ -40,3 +40,7 @@ These are my solutions to the Hacker Rank problems. I am using this as a way to 
 
 [Counting Valleys](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/CountingValleys/src/countingvalleys/CountingValleys.java)
 
+[Picking Numbers](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/PickingNumbers/src/pickingnumbers/PickingNumbers.java)
+
+[Marc's Cakewalk](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/MarcsCakewalk/src/marcscakewalk/MarcsCakewalk.java)
+
