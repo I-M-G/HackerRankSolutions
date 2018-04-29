@@ -1,6 +1,6 @@
 # HackerRankSolutions
 
-[HackerRank](https://www.hackerrank.com "HackerRank")
+[HackerRank](https://www.hackerrank.com "HackerRank.com")
 
 These are my solutions to the Hacker Rank problems. I am using this as a way to challenge myself and track my programming progress. Typically these solutions will be done in Java. I am still learning and I am sure there are ways to optimize these solutions. Listed below are my submitted challenges. Click a challenge to see the solution. Any feedback is greatly appreciated.
 
