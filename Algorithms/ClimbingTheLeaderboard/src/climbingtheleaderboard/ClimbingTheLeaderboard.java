@@ -13,60 +13,48 @@ import java.util.Scanner;
 /**
  *
  * @author Ian <https://github.com/I-M-G>
+ * https://www.hackerrank.com/challenges/climbing-the-leaderboard/problem
  */
 public class ClimbingTheLeaderboard {
 
     // Complete the climbingLeaderboard function below.
     static int[] climbingLeaderboard(int[] scores, int[] alice) {
-
-
+        // Return each placing for each of Alice's scores
+        int[] rankings = new int[alice.length];
+        
+        
+        return rankings;
     }
 
+    
+    // Provide Code with changes for using locally
     private static final Scanner scanner = new Scanner(System.in);
 
-    public static void main(String[] args) throws IOException {
-        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
+    public static void main(String[] args) {
 
         int scoresCount = scanner.nextInt();
-        scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
 
         int[] scores = new int[scoresCount];
 
-        String[] scoresItems = scanner.nextLine().split(" ");
-        scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
 
         for (int i = 0; i < scoresCount; i++) {
-            int scoresItem = Integer.parseInt(scoresItems[i]);
-            scores[i] = scoresItem;
+            scores[i] = scanner.nextInt();
         }
 
         int aliceCount = scanner.nextInt();
-        scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
 
         int[] alice = new int[aliceCount];
 
-        String[] aliceItems = scanner.nextLine().split(" ");
-        scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
-
         for (int i = 0; i < aliceCount; i++) {
-            int aliceItem = Integer.parseInt(aliceItems[i]);
-            alice[i] = aliceItem;
+            alice[i] = scanner.nextInt();
         }
 
         int[] result = climbingLeaderboard(scores, alice);
-
+        
         for (int i = 0; i < result.length; i++) {
-            bufferedWriter.write(String.valueOf(result[i]));
-
-            if (i != result.length - 1) {
-                bufferedWriter.write("\n");
-            }
+            System.out.println(result[i]);
         }
-
-        bufferedWriter.newLine();
-
-        bufferedWriter.close();
-
+        
         scanner.close();
     }
     

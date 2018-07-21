@@ -44,4 +44,4 @@ These are my solutions to the Hacker Rank problems. I am using this as a way to 
 
 [Marc's Cakewalk](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/MarcsCakewalk/src/marcscakewalk/MarcsCakewalk.java)
 
-[Climbing The Leaderboard]() Work in progress
+[Climbing The Leaderboard](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/ClimbingTheLeaderboard/src/climbingtheleaderboard/ClimbingTheLeaderboard.java) -Work in progress
