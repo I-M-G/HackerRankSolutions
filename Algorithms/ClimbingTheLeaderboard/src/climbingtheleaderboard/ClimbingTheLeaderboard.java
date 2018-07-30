@@ -5,6 +5,7 @@
  */
 package climbingtheleaderboard;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
@@ -18,23 +19,34 @@ public class ClimbingTheLeaderboard {
     static int[] climbingLeaderboard(int[] scores, int[] alice) {
         // Return each placing for each of Alice's scores
         int[] rankings = new int[alice.length];
-
-        /*
-        Need a way to track placings and ties.
-        If I'm given tying scores I need to know so that I do not increase the 
-        placing.
-        Ex. Scores of 100,100,50,40,40,20,10 and Alice score of 5.
-        Placing would be 6th. 
         
-        Currently getting the places without accounting for the duplicate scores
-         */
+        // Need to remove duplicate in scores
+        ArrayList<Integer> newScores = new ArrayList<Integer>();
+        
+        for (int i = 0; i < scores.length; i++) {
+            
+            if (i < scores.length - 1) {
+                newScores.add(scores[i]);
+                if (scores[i] == scores[i + 1]) {
+                    i++;
+                }
+            }
+        }
+
+        // testing
+        for (int i = 0; i < newScores.size(); i++) {
+            System.out.println(newScores.get(i));
+        }
+        
+        // Removing duplicates in scores should allow me place Alice's scores
+        // correctly.
         for (int i = 0; i < alice.length; i++) {
             int place = 1;
 
-            for (int j = 0; j < scores.length; j++) {
-                if (alice[i] >= scores[j]) {
+            for (int j = 0; j < newScores.size(); j++) {
+                if (alice[i] >= newScores.get(j)) {
                     rankings[i] = place;
-                } else if (alice[i] < scores[j]) {
+                } else if (alice[i] < newScores.get(j)) {
                     place++;
                     rankings[i] = place;
                 }
