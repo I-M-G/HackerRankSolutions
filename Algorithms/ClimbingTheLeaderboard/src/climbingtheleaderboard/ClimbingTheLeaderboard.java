@@ -24,10 +24,10 @@ public class ClimbingTheLeaderboard {
         ArrayList<Integer> newScores = new ArrayList<Integer>();
         
         for (int i = 0; i < scores.length; i++) {
-            
-            if (i < scores.length - 1) {
-                newScores.add(scores[i]);
-                if (scores[i] == scores[i + 1]) {
+            newScores.add(scores[i]);
+            if (i < scores.length-1) {
+                
+                if (scores[i] == scores[i+1]) {
                     i++;
                 }
             }
