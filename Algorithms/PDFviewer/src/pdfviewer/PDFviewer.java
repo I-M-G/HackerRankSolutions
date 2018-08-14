@@ -24,14 +24,10 @@ public class PDFviewer {
         int area = 0; // Final area to be returned
         int height = 0; // Store talled letter to calculate area
         
+        // Alpha string to use to pair against given heights
         String alpha = "abcdefghijklmnopqrstuvwxyz";
         char[] indexes = alpha.toCharArray();
         ArrayList<Integer> letterHeights = new ArrayList<>();
-        
-        
-        // for(char i : indexes) {
-        //     System.out.println(i);
-        // }
         
         // area = tallest char height * word.length
         
@@ -41,15 +37,14 @@ public class PDFviewer {
             for (int j = 0; j < indexes.length; j++){
                 if (word.charAt(i) == indexes[j]) {
                     letterHeights.add(j);
-                    
                 }
             }
             
         }
         
-        // Get the max height
+        // Get the max height of the given word
         for (int i = 0; i < h.length; i++) {
-            int temp = 0;
+            
             for (int j = 0; j < letterHeights.size(); j++) {
                 if (height < h[letterHeights.get(j)]) {
                     height = h[letterHeights.get(j)];
