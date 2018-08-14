@@ -49,3 +49,5 @@ These are my solutions to the Hacker Rank problems. I am using this as a way to 
 [PDFviewer](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/PDFviewer/src/pdfviewer/PDFviewer.java)
 
 [The Hurdle Race](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/TheHurdleRace/src/thehurdlerace/TheHurdleRace.java)
+
+[Day of the Programmer](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/Day%20of%20the%20Programmer/src/day/of/the/programmer/DayOfTheProgrammer.java)
