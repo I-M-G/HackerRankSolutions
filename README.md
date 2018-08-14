@@ -45,3 +45,7 @@ These are my solutions to the Hacker Rank problems. I am using this as a way to 
 [Marc's Cakewalk](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/MarcsCakewalk/src/marcscakewalk/MarcsCakewalk.java)
 
 [Climbing The Leaderboard](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/ClimbingTheLeaderboard/src/climbingtheleaderboard/ClimbingTheLeaderboard.java) -Work in progress
+
+[PDFviewer](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/PDFviewer/src/pdfviewer/PDFviewer.java)
+
+[The Hurdle Race](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/TheHurdleRace/src/thehurdlerace/TheHurdleRace.java)
