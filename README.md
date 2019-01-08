@@ -16,6 +16,9 @@ These are my solutions to the Hacker Rank problems. I am using this as a way to 
 
 [CurrencyFormatter](https://github.com/I-M-G/HackerRankSolutions/blob/master/JavaChallenges/CurrencyFormatter/src/currencyformatter/CurrencyFormatter.java)
 
+[Date and Time](https://github.com/I-M-G/HackerRankSolutions/blob/master/JavaChallenges/DateAndTime/src/dateandtime/Result.java)
+
+
 ## Algorithms
 
 [AppleAndOrange](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/AppleAndOrange/src/appleandorange/AppleAndOrange.java)
