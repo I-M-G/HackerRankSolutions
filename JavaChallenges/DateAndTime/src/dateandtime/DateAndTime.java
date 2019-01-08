@@ -5,10 +5,7 @@
  */
 package dateandtime;
 
-import java.text.ParseException;
 import java.util.Scanner;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 /**
  *
@@ -19,7 +16,7 @@ import java.util.logging.Logger;
 
 public class DateAndTime {
 
-    public static void main(String[] args) throws ParseException {
+    public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println("MM DD YYYY");
         int month = in.nextInt();

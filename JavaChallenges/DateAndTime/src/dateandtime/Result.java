@@ -5,12 +5,7 @@
  */
 package dateandtime;
 
-import java.text.DateFormat;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Arrays;
 import java.util.Calendar;
-import java.util.Date;
 
 /**
  *
@@ -18,10 +13,18 @@ import java.util.Date;
  */
 public class Result {
     
-    public static String findDay(int month, int day, int year) throws ParseException {
-        String d = null;
+    public static String findDay(int month, int day, int year) {
+        // Putting days in an array makes it easier to find the actual day
+        String[] days = new String[] {"SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"};
         
+        // Create and instance and set it to the given date
+        Calendar cal = Calendar.getInstance();
+        cal.set(year, month-1, day);
         
-        return d;
+        // Get the day of the week as an int
+        int dayOfWeek = cal.get(Calendar.DAY_OF_WEEK);
+        
+        // Return the String value of the day
+        return days[dayOfWeek - 1];
     }
 }
