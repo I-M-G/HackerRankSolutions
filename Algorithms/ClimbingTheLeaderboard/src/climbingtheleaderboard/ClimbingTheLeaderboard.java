@@ -6,13 +6,16 @@
 package climbingtheleaderboard;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
 /**
  *
  * @author Ian <https://github.com/I-M-G>
  * https://www.hackerrank.com/challenges/climbing-the-leaderboard/problem
+ * 
  */
+
 public class ClimbingTheLeaderboard {
 
     // Complete the climbingLeaderboard function below.
@@ -20,23 +23,22 @@ public class ClimbingTheLeaderboard {
         // Return each placing for each of Alice's scores
         int[] rankings = new int[alice.length];
         
-        // Need to remove duplicate in scores
-        ArrayList<Integer> newScores = new ArrayList<Integer>();
+        Arrays.sort(scores);
         
+        ArrayList<Integer> newScores = new ArrayList<>();
+        
+        // Need to remove duplicate in scores
         for (int i = 0; i < scores.length; i++) {
-            newScores.add(scores[i]);
-            if (i < scores.length-1) {
-                
-                if (scores[i] == scores[i+1]) {
-                    i++;
-                }
+            
+            if(!newScores.contains(scores[i])) {
+                newScores.add(scores[i]);
             }
         }
-
-        // testing
-        for (int i = 0; i < newScores.size(); i++) {
-            System.out.println(newScores.get(i));
-        }
+        
+        // Testing
+//        for (int i = 0; i < newScores.size(); i++) {
+//            System.out.println(newScores.get(i));
+//        }
         
         // Removing duplicates in scores should allow me place Alice's scores
         // correctly.
@@ -78,7 +80,8 @@ public class ClimbingTheLeaderboard {
         for (int i = 0; i < aliceCount; i++) {
             alice[i] = scanner.nextInt();
         }
-
+        
+        
         int[] result = climbingLeaderboard(scores, alice);
 
         for (int i = 0; i < result.length; i++) {
