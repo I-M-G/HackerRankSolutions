@@ -23,11 +23,9 @@ public class ClimbingTheLeaderboard {
         // Return each placing for each of Alice's scores
         int[] rankings = new int[alice.length];
         
-        Arrays.sort(scores);
-        
         ArrayList<Integer> newScores = new ArrayList<>();
         
-        // Need to remove duplicate in scores
+         // Need to remove duplicate in scores
         for (int i = 0; i < scores.length; i++) {
             
             if(!newScores.contains(scores[i])) {
@@ -35,10 +33,6 @@ public class ClimbingTheLeaderboard {
             }
         }
         
-        // Testing
-//        for (int i = 0; i < newScores.size(); i++) {
-//            System.out.println(newScores.get(i));
-//        }
         
         // Removing duplicates in scores should allow me place Alice's scores
         // correctly.
@@ -61,24 +55,24 @@ public class ClimbingTheLeaderboard {
     }
 
     // Provide Code with changes for using locally
-    private static final Scanner scanner = new Scanner(System.in);
+    private static final Scanner SCANNER = new Scanner(System.in);
 
     public static void main(String[] args) {
 
-        int scoresCount = scanner.nextInt();
+        int scoresCount = SCANNER.nextInt();
 
         int[] scores = new int[scoresCount];
 
         for (int i = 0; i < scoresCount; i++) {
-            scores[i] = scanner.nextInt();
+            scores[i] = SCANNER.nextInt();
         }
 
-        int aliceCount = scanner.nextInt();
+        int aliceCount = SCANNER.nextInt();
 
         int[] alice = new int[aliceCount];
 
         for (int i = 0; i < aliceCount; i++) {
-            alice[i] = scanner.nextInt();
+            alice[i] = SCANNER.nextInt();
         }
         
         
@@ -88,7 +82,7 @@ public class ClimbingTheLeaderboard {
             System.out.println(result[i]);
         }
 
-        scanner.close();
+        SCANNER.close();
     }
 
 }
