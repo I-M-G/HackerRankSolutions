@@ -1,12 +1,11 @@
-# HackerRankSolutions
-
+# My HackerRank Solutions
 [HackerRank](https://www.hackerrank.com "HackerRank.com")
 
 These are my solutions to the Hacker Rank problems. I am using this as a way to challenge myself and track my programming progress. Typically these solutions will be done in Java. I am still learning and I am sure there are ways to optimize these solutions. Listed below are my submitted challenges. Click a challenge to see the solution. Any feedback is greatly appreciated.
 
-<!-- ## Quick access to the final solutions -->
+## Source Code
 
-## JavaChallenges
+__Java Challenges__
 
 [Anagrams](https://github.com/I-M-G/HackerRankSolutions/blob/master/JavaChallenges/Anagrams/src/anagrams/Anagrams.java)
 
@@ -19,7 +18,7 @@ These are my solutions to the Hacker Rank problems. I am using this as a way to 
 [Date and Time](https://github.com/I-M-G/HackerRankSolutions/blob/master/JavaChallenges/DateAndTime/src/dateandtime/Result.java)
 
 
-## Algorithms
+__Algorithms__
 
 [AppleAndOrange](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/AppleAndOrange/src/appleandorange/AppleAndOrange.java)
 
@@ -56,3 +55,9 @@ These are my solutions to the Hacker Rank problems. I am using this as a way to 
 [The Hurdle Race](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/TheHurdleRace/src/thehurdlerace/TheHurdleRace.java)
 
 [Day of the Programmer](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/Day%20of%20the%20Programmer/src/day/of/the/programmer/DayOfTheProgrammer.java)
+
+[AngryProfessor](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/AngryProfessor/src/angryprofessor/AngryProfessor.java)
+
+[BeautifulDayAtTheMovies](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/BeautifulDayAtTheMovies/src/beautifuldayatthemovies/BeautifulDayAtTheMovies.java)
+
+[FindDigits](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/FindDigits/src/finddigits/FindDigits.java)
