@@ -61,3 +61,5 @@ __Algorithms__
 [BeautifulDayAtTheMovies](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/BeautifulDayAtTheMovies/src/beautifuldayatthemovies/BeautifulDayAtTheMovies.java)
 
 [FindDigits](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/FindDigits/src/finddigits/FindDigits.java)
+
+[CircularArrayRotation](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/CircularArrayRotation/src/circulararrayrotation/CircularArrayRotation.java)
