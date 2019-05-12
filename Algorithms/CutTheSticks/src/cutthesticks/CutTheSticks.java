@@ -20,7 +20,7 @@ public class CutTheSticks {
         ArrayList<Integer> stickHistory = new ArrayList<Integer>();
         
         // Convert to List. Easier to remove elements
-        for(int x : arr) {
+        for (int x : arr) {
             sticks.add(x);
         }
         
@@ -42,23 +42,36 @@ public class CutTheSticks {
                 }
             }
             
+            // Update stick lengths based on smallest
+            for (int i = 0; i < sticks.size(); i++) {
+                if (sticks.get(i) != -1) {
+                    if (sticks.get(i) == smallest) {
+                        sticks.set(i, -1);
+                    } else {
+                        int updatedStickLength = sticks.get(i) - smallest;
+                        sticks.set(i, updatedStickLength);
+                    }
+                }
+            }
             
+            // Break loop if all array items -1
+            int total = 0;
+            for (int i = 0; i < sticks.size(); i++) {
+                if (sticks.get(i) == -1) {
+                    total++;
+                }
+            }
+            if (total == sticks.size()) {
+                break;
+            }
         }
-        
         
         // Convert List back to Array
         int[] arrayToReturn = new int[stickHistory.size()];
-        for(int i = 0; i < stickHistory.size(); i++) {
+        for (int i = 0; i < stickHistory.size(); i++) {
             arrayToReturn[i] = stickHistory.get(i);
         }        
         return arrayToReturn;
-    }
-    
-    // For Testing
-    private void printSticks(ArrayList<Integer> list, String spacer) {
-        for(int stick : list) {
-            System.out.print(stick + spacer);
-        }
     }
 
     private static final Scanner scanner = new Scanner(System.in);
@@ -70,11 +83,8 @@ public class CutTheSticks {
 
         int[] arr = new int[n];
 
-        String[] arrItems = scanner.nextLine().split(" ");
-        scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
-
         for (int i = 0; i < n; i++) {
-            int arrItem = Integer.parseInt(arrItems[i]);
+            int arrItem = scanner.nextInt();
             arr[i] = arrItem;
         }
 
