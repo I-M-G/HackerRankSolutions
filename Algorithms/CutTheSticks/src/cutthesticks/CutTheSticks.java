@@ -16,8 +16,6 @@ import java.util.Scanner;
 public class CutTheSticks {
     // Complete the cutTheSticks function below.
     static int[] cutTheSticks(int[] arr) {
-        boolean isRunning = true;
-        int sticksRemaining = 0; // Can be Remove?
         ArrayList<Integer> sticks = new ArrayList<Integer>();
         ArrayList<Integer> stickHistory = new ArrayList<Integer>();
         
@@ -26,7 +24,26 @@ public class CutTheSticks {
             sticks.add(x);
         }
         
-        
+        for (int x = 0; x < sticks.size(); x++) {
+            // Update stickHistory
+            int count = 0;
+            for (int i = 0; i < sticks.size(); i++) {
+                if(sticks.get(i) != -1) {
+                    count++;
+                }
+            }
+            stickHistory.add(count);
+            
+            int smallest = 1001;
+            // Get the smallest stick that hasn't been changed
+            for (int i = 0; i < sticks.size(); i++) {
+                if(sticks.get(i) < smallest && sticks.get(i) != -1) {
+                    smallest = sticks.get(i);
+                }
+            }
+            
+            
+        }
         
         
         // Convert List back to Array
