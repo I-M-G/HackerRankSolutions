@@ -17,6 +17,8 @@ __Java Challenges__
 
 [Date and Time](https://github.com/I-M-G/HackerRankSolutions/blob/master/JavaChallenges/DateAndTime/src/dateandtime/Result.java)
 
+[PatternSyntaxChecker](https://github.com/I-M-G/HackerRankSolutions/blob/master/JavaChallenges/PatternSyntaxChecker/src/patternsyntaxchecker/PatternSyntaxChecker.java)
+
 
 __Algorithms__
 
@@ -26,33 +28,33 @@ __Algorithms__
 
 [MigratoryBirds](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/MigratoryBirds/src/migratorybirds/MigratoryBirds.java)
 
-[Bon Appetit](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/BonAppetit/src/bonappetit/BonAppetit.java)
+[BonAppetit](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/BonAppetit/src/bonappetit/BonAppetit.java)
 
-[Sock Merchant](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/SockMerchant/src/sockmerchant/SockMerchant.java)
+[SockMerchant](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/SockMerchant/src/sockmerchant/SockMerchant.java)
 
 [Drawing Book](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/DrawingBook/src/drawingbook/DrawingBook.java)
 
-[Electronics Shop](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/ElectronicShop/src/electronicshop/ElectronicShop.java)
+[ElectronicsShop](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/ElectronicShop/src/electronicshop/ElectronicShop.java)
 
-[Divisible Sum Pairs](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/DivisibleSumPairs/src/divisiblesumpairs/DivisibleSumPairs.java)
+[DivisibleSumPairs](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/DivisibleSumPairs/src/divisiblesumpairs/DivisibleSumPairs.java)
 
 [Breaking the Record](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/BreakingTheRecord/src/breakingtherecord/BreakingTheRecord.java)
 
-[Birthday Cake Candles](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/BirthdayCakeCandles/src/birthdaycakecandles/BirthdayCakeCandles.java)
+[BirthdayCakeCandles](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/BirthdayCakeCandles/src/birthdaycakecandles/BirthdayCakeCandles.java)
 
 [Cats and Mouse](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/CatsAndMouse/src/catsandmouse/CatsAndMouse.java)
 
-[Counting Valleys](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/CountingValleys/src/countingvalleys/CountingValleys.java)
+[CountingValleys](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/CountingValleys/src/countingvalleys/CountingValleys.java)
 
 [Picking Numbers](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/PickingNumbers/src/pickingnumbers/PickingNumbers.java)
 
 [Marc's Cakewalk](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/MarcsCakewalk/src/marcscakewalk/MarcsCakewalk.java)
 
-[Climbing The Leaderboard](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/ClimbingTheLeaderboard/src/climbingtheleaderboard/ClimbingTheLeaderboard.java) -Work in progress
+[ClimbingTheLeaderboard](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/ClimbingTheLeaderboard/src/climbingtheleaderboard/ClimbingTheLeaderboard.java) -Work in progress
 
 [PDFviewer](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/PDFviewer/src/pdfviewer/PDFviewer.java)
 
-[The Hurdle Race](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/TheHurdleRace/src/thehurdlerace/TheHurdleRace.java)
+[TheHurdleRace](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/TheHurdleRace/src/thehurdlerace/TheHurdleRace.java)
 
 [Day of the Programmer](https://github.com/I-M-G/HackerRankSolutions/blob/master/Algorithms/Day%20of%20the%20Programmer/src/day/of/the/programmer/DayOfTheProgrammer.java)
 
