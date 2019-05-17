@@ -19,6 +19,10 @@ __Java Challenges__
 
 [PatternSyntaxChecker](https://github.com/I-M-G/HackerRankSolutions/blob/master/JavaChallenges/PatternSyntaxChecker/src/patternsyntaxchecker/PatternSyntaxChecker.java)
 
+[JavaRegex](https://github.com/I-M-G/HackerRankSolutions/blob/master/JavaChallenges/JavaRegex/src/javaregex/JavaRegex.java)
+
+[JavaList](https://github.com/I-M-G/HackerRankSolutions/blob/master/JavaChallenges/JavaList/src/javalist/JavaList.java)
+
 
 __Algorithms__
 
