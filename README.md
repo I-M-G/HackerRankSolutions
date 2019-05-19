@@ -23,6 +23,8 @@ __Java Challenges__
 
 [JavaList](https://github.com/I-M-G/HackerRankSolutions/blob/master/JavaChallenges/JavaList/src/javalist/JavaList.java)
 
+[JavaMap](https://github.com/I-M-G/HackerRankSolutions/blob/master/JavaChallenges/JavaMap/src/javamap/JavaMap.java)
+
 
 __Algorithms__
 
